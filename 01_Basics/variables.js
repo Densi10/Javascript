@@ -2,7 +2,7 @@ const accountId = 1234
 let accountName = "Demo"
 var accountEmail = "demo123@gmail.com"
 accountCity = "surat"
-let accountState;
+let accountState = "Gujarat";
 
 // accountId = 2   It gives Constant error Constant can't change
 accountName = "newDemo"
