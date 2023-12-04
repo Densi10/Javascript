@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-const balance = 1000000;
-// console.log(balance);
-// console.log(balance.toString().length);
-// console.log(balance.toFixed(2));
-// console.log(balance.toPrecision(2));
-// console.log(balance.toLocaleString('en-IN'));
-
-// Math 
-
-// console.log(Math.random());
-// console.log(Math.floor(Math.random()*10)+1);
-=======
 // const hundreds = 10000000;
 // console.log(hundreds.toLocaleString('en-IN'));
 
@@ -28,13 +15,8 @@ const balance = 1000000;
 
 
 // console.log(Math.floor(Math.random()*10 )+ 1) // to avoid 0 value we can + 1 to random value
->>>>>>> 1a5cd4d (datatypes and string)
 
 const min = 10;
 const max = 20;
 
-<<<<<<< HEAD
-console.log(Math.floor(Math.random()*(max-min+1)+min));
-=======
 console.log(Math.floor(Math.random()*(max-min +1 )+ min ));
->>>>>>> 1a5cd4d (datatypes and string)
