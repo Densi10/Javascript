@@ -45,9 +45,20 @@ const users =[
     }
 ]
 // console.log(users[2].email);
-console.log(tinderUser);
+// console.log(tinderUser);
 
 // console.log(Object.keys(tinderUser));  It returns array of keys of given object so we can loop it or do other things with it 
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 // console.log(tinderUser.hasOwnProperty('isLogged')); it checks property is included in object or not 
+
+
+const course = {
+    coursename :"Javascript",
+    price :"999",
+    courseInstructor :"Hitesh sir"
+}
+// DE_STRUCTORING
+const {courseInstructor : instructor} = course;
+// console.log(courseInstructor); 
+console.log(instructor);
