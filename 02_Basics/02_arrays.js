@@ -6,7 +6,7 @@ const dc =["superman","flash","batman"];
 // spread operator 
 
 // for merge array
-
+//   spread operator ...
 // const allHeros = [...marvel,...dc];
 // console.log(allHeros);
 
