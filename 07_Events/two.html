@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Events </title>
+        <style>
+        .body {
+            background-color: black;
+            color:white;
+        }
+        #stop{
+            padding: 10px 20px;
+            font-size: large;
+        }
+    </style>
+    </head>
+    <body class="body">
+        <h1>JAVASCRIPT EVENTS</h1>
+        <button id="stop">stop</button>
+    </body>
+    <script>
+    const name = function() {
+        console.log("Densi");
+    }
+
+    const changeText = function(){
+
+        document.querySelector('h1').innerHTML = "You Are The Best";
+    }  
+
+    const changeMe = setTimeout(changeText,3000);
+
+    document.querySelector('#stop').addEventListener('click',function () {
+        
+        clearTimeout(changeMe);
+        console.log("STOPPED");
+    })
+
+</script>
+</html>
